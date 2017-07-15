@@ -1,7 +1,8 @@
 # Solucao-1.2
+Proposta de algoritmo para solução do problema 1.2: Validar o input (entrada) de sequência de operadores de precedência.
 
-Algoritmo resposta ao problema problema 1.2 (Operadores de precedência).
+Foi utilizado o paradigma de orientação à objetos com uma estrutura similar a uma pilha dinâmica. O algoritmo verifica a string informada pelo usuário e empilha qualquer operador de precedência que encontrar, desempilhando ao mesmo tempo operadores de precedência "equivalentes" ("( com )", "[ com ]", "{ com }") que estejam em sequência.
 
-A solução foi executada para o console win32, na linguagem C++, utilizando o paradigma da programação orientada à objetos.
+Neste processo, se ao terminar a análise a pilha estiver vazia, a string apresenta uma sequência de operadores de precedência válida. 
 
-Foi criada uma pilha (Estrutura de dados) para empilhar operadores "não fechados" (não encontraram seu correspondente). Se a pilha finalizar vazia, a sequência é valida.
+O algoritmo foi desenvolvido na linguagem C++, para o console win32, na IDE Visual Studio 2017.
